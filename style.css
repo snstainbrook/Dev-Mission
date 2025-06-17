@@ -1,0 +1,248 @@
+/* Whimsical color palette */
+body {
+  background: linear-gradient(
+    to bottom,
+    #ffb3ba,
+    #ffdfba,
+    #ffffba,
+    #baffc9,
+    #bae1ff,
+    #e2b5ff
+  );
+
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff69b4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling */
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.card h2{
+  font-size:1.5rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Carousel styling */
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 500px;
+  border-radius: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-control-next {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon {
+  background-color: rgba(255, 192, 203, 0.8); /* light pink background */
+}
+
+.carousel-control-next-icon {
+  background-color: rgba(173, 216, 230, 0.8);
+}
+
+.bio-section {
+  margin-top: 40px;
+  text-align: left;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background: rgba(200, 230, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel,
+.bio-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: linear-gradient(to bottom, #ffdde1, #ffffff, #cce7ff);
+}
+/* Index.html card styling */
+.card-img-top {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-text {
+  color: #555555;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+/* Navbar styling */
+.gradient {
+  background: linear-gradient(to bottom, #ffdde1, #ffffff, #cce7ff);
+}
+.navbar {
+   
+  padding: 15px;
+  
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  top: 50%; /* vertically center */
+  transform: translate(-50%, -50%); /* center both horizontally and vertically */
+  color: #6a0572;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* dropdown appears below the trigger */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  background-color: rgba(186, 225, 255, 0.85);
+  min-width: 160px;
+  max-width: 90vw;
+  overflow-x: auto;
+  z-index: 1000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;           /* or 100%, depending on your layout */
+    max-width: 90vw;       /* keeps it within the screen */
+    padding: 10px;
+  }
+}
+
+
+
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23006666' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar .dropdown-toggle {
+  color: #333333 !important;
+  font-weight: bold;
+}
+
+.navbar .dropdown-toggle:hover,
+.navbar .dropdown-toggle:focus {
+  color: #006666 !important;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar .nav-link {
+  color: #6a0572 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ff69b4 !important;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6a0572;
+  margin-top: 40px;
+  border-top: 2px solid #ff69b4;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #6a0572;
+  text-shadow: 3px 3px 8px rgba(255, 105, 180, 0.3);
+  padding: 15px;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  width: fit-content;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #b5457d;
+  text-shadow: 3px 3px 8px rgba(255, 105, 180, 0.3); /* Soft pink glow */
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+.puppy-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+
+
+.btn-primary {
+  background-color: #ffb6c1;
+  border-color: #ff69b4;
+  color: #6a0572;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #ff69b4;
+  color: white;
+  transform: scale(1.05);
+}
